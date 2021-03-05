@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="about_me_bio">Before joining New Horizon as a Course Instructor, I worked mostly in Pastoral
+        and Teaching roles through volunteering for Churches and schools. In 2018, I switched my career to Tech
+        and began training in software development in 2020.Thanks to Google, Andela and  Pluralsight I completing
+        the Android Developer Track in November 2020 through the Google Africa Developer Scholarship (GADS) 2020.
+        In my present role, I exercise a calculated and methodical approach to teaching software development,
+        code writing, testing and bugging. While I am independently motivated, I appreciate collective efforts and
+        collaborate productively within group settings. Moreover, I am competent in WordPress, HTML, CSS, Java and
+        Python with a little preference for Linux over other operating systems.!
+</string>
+    <string name="content_description">a portrait of Gabriel Aloho</string>
+    <string name="application_name">Instructor Biography Application</string>
+    <string name="designer_name">Designed by Gabriel Aloho</string>
+    <string name="btn_github">Check out my Github</string>
+</resources>

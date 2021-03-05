@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/schoolBadge">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/my_portrait"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_margin="0dp"
+            android:contentDescription="@string/content_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gabriel" />
+
+        <TextView
+            android:id="@+id/my_bio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/about_me_bio"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:background="@color/yellow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </LinearLayout>
+</ScrollView>

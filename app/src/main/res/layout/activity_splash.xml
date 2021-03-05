@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/schoolBadge">
+
+    <!-- Don't worry about the id names I have named the id's with reference to the file name for consistency -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/solislogo"
+        app:srcCompat="@drawable/solislogo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/application_name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:layout_below="@id/imageView"
+        android:padding="30dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:indeterminateTint="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressBar"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:padding="15dp"
+        android:text="@string/designer_name"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textAlignment="center"/>
+
+</LinearLayout>
